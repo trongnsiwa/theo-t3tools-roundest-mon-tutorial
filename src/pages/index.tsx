@@ -1,7 +1,6 @@
 import { getOptionsForVote } from "@/utils/getRandomPokemon";
 import { trpc } from "@/utils/trpc";
 import type { NextPage } from "next";
-import Image from "next/image";
 import React, { useState } from "react";
 
 const Home: NextPage = () => {
